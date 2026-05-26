@@ -2344,6 +2344,26 @@ revenue kategori film.</p>
 <span id="cb9-2"><a href="#cb9-2" tabindex="-1"></a><span class="fu">cat</span>(<span class="fu">sprintf</span>(<span class="st">&quot;Koefisien Korelasi Pearson: %.4f</span><span class="sc">\n</span><span class="st">&quot;</span>, r))</span></code></pre></div>
 <pre><code>## Koefisien Korelasi Pearson: 0.8487</code></pre>
 </div>
+<div id="interpretasi-visualisasi" class="section level1">
+<h1>Interpretasi Visualisasi</h1>
+<p>Visualisasi total revenue per kategori film memperlihatkan adanya
+perbedaan pendapatan yang cukup signifikan antar kategori. Beberapa
+kategori memiliki revenue yang jauh lebih tinggi dibanding kategori
+lainnya, yang menunjukkan bahwa kategori tersebut lebih diminati oleh
+pelanggan. Diagram batang yang diurutkan dari revenue tertinggi juga
+mempermudah dalam mengidentifikasi kategori film yang memberikan
+kontribusi terbesar terhadap pendapatan perusahaan.</p>
+<p>Visualisasi jumlah rental per kategori menunjukkan pola yang hampir
+serupa dengan grafik revenue. Kategori dengan jumlah rental tinggi
+umumnya juga memiliki total revenue yang tinggi. Hal ini memperkuat
+dugaan adanya hubungan positif antara kedua variabel tersebut.</p>
+<p>Pada visualisasi regresi linear, titik-titik data membentuk pola yang
+cenderung naik mengikuti garis regresi. Pola ini menunjukkan bahwa
+semakin besar jumlah rental, maka total revenue juga meningkat. Garis
+regresi yang menanjak memperlihatkan hubungan linear positif, sedangkan
+confidence interval yang relatif sempit menunjukkan bahwa model regresi
+cukup baik dalam merepresentasikan hubungan antar variabel.</p>
+</div>
 <div id="interpretasi-hasil" class="section level1">
 <h1>Interpretasi Hasil</h1>
 <p>Berdasarkan hasil analisis yang telah dilakukan, diperoleh beberapa
@@ -2363,6 +2383,25 @@ penyewaan suatu kategori, semakin besar pendapatan yang dihasilkan.</p>
 mendekati 1 menandakan hubungan linear yang sangat kuat antara kedua
 variabel.</p>
 </blockquote>
+<p>Berdasarkan hasil analisis data pada database Sakila, diketahui bahwa
+setiap kategori film memiliki tingkat popularitas dan total revenue yang
+berbeda-beda. Perbedaan ini menunjukkan bahwa minat pelanggan terhadap
+kategori film tidak merata. Kategori dengan jumlah rental yang lebih
+tinggi cenderung menghasilkan revenue yang lebih besar dibandingkan
+kategori lainnya. Hal ini menandakan bahwa tingkat penyewaan film
+memiliki pengaruh terhadap pendapatan yang diperoleh perusahaan rental
+film.</p>
+<p>Hasil regresi linear sederhana menunjukkan adanya hubungan positif
+antara variabel jumlah rental dan total revenue. Artinya, setiap
+peningkatan jumlah penyewaan film akan diikuti oleh peningkatan total
+pendapatan. Dari hasil model regresi yang diperoleh, jumlah rental dapat
+digunakan sebagai prediktor yang cukup baik dalam memperkirakan revenue
+suatu kategori film.</p>
+<p>Selain itu, nilai koefisien korelasi Pearson yang mendekati angka 1
+menunjukkan hubungan linear yang sangat kuat antara jumlah rental dan
+total revenue. Dengan demikian, dapat disimpulkan bahwa popularitas
+kategori film berkontribusi besar terhadap peningkatan pendapatan bisnis
+rental film.</p>
 </div>
 <div id="kesimpulan" class="section level1">
 <h1>Kesimpulan</h1>
